@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Alpha Panel in CRM web2cat",
+    "version": "1.0",
+    "description": "Делает панельки прозрачными...",
+    "content_scripts": [
+        {
+            "matches": [ "https://crm.web2cat.ru/*" ],
+            "js": [ "app.js" ]
+        }
+    ]
+}
